@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "//st-q.mxcdn.cn/mianchao_hzdata/static/css/main.f51e900d.chunk.css",
+    "main.js": "//st-q.mxcdn.cn/mianchao_hzdata/static/js/main.f5f11538.chunk.js",
+    "runtime-main.js": "//st-q.mxcdn.cn/mianchao_hzdata/static/js/runtime-main.f45591cf.js",
+    "static/css/2.819092da.chunk.css": "//st-q.mxcdn.cn/mianchao_hzdata/static/css/2.819092da.chunk.css",
+    "static/js/2.ab7ed732.chunk.js": "//st-q.mxcdn.cn/mianchao_hzdata/static/js/2.ab7ed732.chunk.js",
+    "precache-manifest.7eb382fe457afa7e31f080e396533ffc.js": "//st-q.mxcdn.cn/mianchao_hzdata/precache-manifest.7eb382fe457afa7e31f080e396533ffc.js",
+    "release_index.ejs": "//st-q.mxcdn.cn/mianchao_hzdata/release_index.ejs",
+    "service-worker.js": "//st-q.mxcdn.cn/mianchao_hzdata/service-worker.js",
+    "static/media/index.less": "//st-q.mxcdn.cn/mianchao_hzdata/static/media/map.bab2b509.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.f45591cf.js",
+    "static/css/2.819092da.chunk.css",
+    "static/js/2.ab7ed732.chunk.js",
+    "static/css/main.f51e900d.chunk.css",
+    "static/js/main.f5f11538.chunk.js"
+  ]
+}
