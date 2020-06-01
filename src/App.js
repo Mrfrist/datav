@@ -742,10 +742,6 @@ class App extends Component {
     return ( 
       <div className="data">
         <header className="header_main">
-          {/* <div className="animation"></div>
-          <div className="animation"></div> */}
-          <div className="left_bg"></div>
-          <div className="right_bg"></div>
           <h3>知瓜数据平台</h3>
         </header>
         <div className="wrapper">
@@ -756,17 +752,10 @@ class App extends Component {
                   <BorderBox13>
                     <div className="xpanel">
                       <div className="fill-h" id="mainMap1">
-                        <Loading style={{color:'#fff'}}>加载中...</Loading>
+                        {/* <Loading style={{color:'#fff'}}>加载中...</Loading> */}
                         {/* <ScrollBoard config={ this.state.config} style={{width: '100%', height: '100%'}} /> */}
-                      </div>
-                    </div>
-                  </BorderBox13>
-                </div>
-                <div className="xpanel-wrapper xpanel-wrapper-4">
-                  <BorderBox13>
-                    <div className="xpanel">
-                      <div className="fill-h" id="worldMap">
-                        {/* <table
+
+                        <table
                           width="100%"
                           border="0"
                           cellSpacing="0"
@@ -833,7 +822,96 @@ class App extends Component {
                             <td>安徽</td>
                             <td>23.2w</td>
                           </tr>
-                        </table> */}
+                        </table>
+                      </div>
+                    </div>
+                  </BorderBox13>
+                </div>
+                <div className="xpanel-wrapper xpanel-wrapper-4">
+                  <BorderBox13>
+                    <div className="xpanel">
+                      <div className="fill-h" id="worldMap">
+                        <table
+                          width="100%"
+                          border="0"
+                          cellSpacing="0"
+                          cellPadding="0"
+                        >
+                          <tr>
+                            <td width="105" style={{ color: '#0c86a9' }}>
+                              排名
+                            </td>
+                            <td width="181" style={{ color: '#0c86a9' }}>
+                              城市
+                            </td>
+                            <td width="112" style={{ color: '#0c86a9' }}>
+                              主播数
+                            </td>
+                            <td width="112" style={{ color: '#0c86a9' }}>
+                              主播类型
+                            </td>
+                          </tr>
+                          <tr>
+                            <td>01</td>
+                            <td>安徽</td>
+                            <td>23.2w</td>
+                            <td>美妆</td>
+                          </tr>
+                          <tr>
+                            <td>01</td>
+                            <td>安徽</td>
+                            <td>23.2w</td>
+                            <td>美食</td>
+                          </tr>
+                          <tr>
+                            <td>01</td>
+                            <td>安徽</td>
+                            <td>23.2w</td>
+                            <td>教育</td>
+                          </tr>
+                          <tr>
+                            <td>01</td>
+                            <td>安徽</td>
+                            <td>23.2w</td>
+                            <td>剧情</td>
+                          </tr>
+                          <tr>
+                            <td>01</td>
+                            <td>安徽</td>
+                            <td>23.2w</td>
+                            <td>旅游</td>
+                          </tr>
+                          <tr>
+                            <td>01</td>
+                            <td>安徽</td>
+                            <td>23.2w</td>
+                            <td>美妆</td>
+                          </tr>
+                          <tr>
+                            <td>01</td>
+                            <td>安徽</td>
+                            <td>23.2w</td>
+                            <td>美妆</td>
+                          </tr>
+                          <tr>
+                            <td>01</td>
+                            <td>安徽</td>
+                            <td>23.2w</td>
+                            <td>美妆</td>
+                          </tr>
+                          <tr>
+                            <td>01</td>
+                            <td>安徽</td>
+                            <td>23.2w</td>
+                            <td>美妆</td>
+                          </tr>
+                          <tr>
+                            <td>01</td>
+                            <td>安徽</td>
+                            <td>23.2w</td>
+                            <td>美妆</td>
+                          </tr>
+                        </table>
                       </div>
                     </div>
                   </BorderBox13>
